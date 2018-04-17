@@ -17,6 +17,12 @@
 	</properties>
 
 	<dependencies>
+		<!-- Start-SQL connector -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.43</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -93,14 +99,6 @@
 
 	</dependencies>
   <build>
-		<resources>
-			<!-- 控制资源文件的拷贝target/classes 目录 -->
-			<resource>
-				<directory>src/main/resources</directory>
-				<targetPath>${project.build.directory}/classes</targetPath>
-			</resource>
-		</resources>
-
 		<plugins>
 			<!--设置JAVA版本，这里使用 -->
 			<plugin>
@@ -124,7 +122,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>ftnt.qa.autotest.ui.fortisiem.pageobject.testBase2</mainClass>
+							<mainClass>com.bigdata.mapreduce.wordcount.WordCountMain</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -159,9 +157,7 @@
 						</property>
 						<property>
 							<name>listener</name>
-							<value>org.uncommons.reportng.HTMLReporter,
-								org.uncommons.reportng.JUnitXMLReporter,
-								ftnt.qa.autotest.ui.framework.testng.listener.TestNGListener</value>
+							<value></value>
 						</property>
 					</properties>
 					<reportsDirectory>TestNG-output/</reportsDirectory>
