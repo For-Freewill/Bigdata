@@ -6,7 +6,7 @@ import java.io.IOException;
 
 import org.apache.hadoop.io.Writable;
 
-//数据: 7654,MARTIN,SALESMAN,7698,1981/9/28,1250,1400,30
+//����: 7654,MARTIN,SALESMAN,7698,1981/9/28,1250,1400,30
 public class Employee implements Writable{
 	private int empno;
 	private String ename;
@@ -19,7 +19,7 @@ public class Employee implements Writable{
 	
 	@Override
 	public void readFields(DataInput input) throws IOException {
-		// 反序列化
+		// �����л�
 		this.empno = input.readInt();
 		this.ename = input.readUTF();
 		this.job = input.readUTF();
@@ -32,7 +32,7 @@ public class Employee implements Writable{
 	
 	@Override
 	public void write(DataOutput output) throws IOException {
-		// 序列化
+		// ���л�
 		output.writeInt(this.empno);
 		output.writeUTF(this.ename);
 		output.writeUTF(this.job);
