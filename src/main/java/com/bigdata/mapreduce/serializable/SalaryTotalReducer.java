@@ -5,19 +5,19 @@ import java.io.IOException;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.mapreduce.Reducer;
 
-//                                                k3      v3     k4      v4
-public class SalaryTotalReducer extends Reducer<IntWritable, IntWritable, IntWritable, IntWritable> {
+//                                                k3            v3     k4      v4
+public class SalaryTotalReducer extends Reducer<IntWritable, Employee, IntWritable, IntWritable> {
 
 	@Override
-	protected void reduce(IntWritable k3, Iterable<IntWritable> v3,Context context)
+	protected void reduce(IntWritable k3, Iterable<Employee> v3,Context context)
 			throws IOException, InterruptedException {
-		//对v3求和，得到该部门的工资总额
+		//取出v3中的每个员工 进行工资求和
 		int total = 0;
-		for(IntWritable v:v3){
-			total += v.get();
+		for(Employee e:v3){
+			total = total + e.getSal();
 		}
 		
-		//输出                    部门号   总额
+		//输出
 		context.write(k3, new IntWritable(total));
 	}
 

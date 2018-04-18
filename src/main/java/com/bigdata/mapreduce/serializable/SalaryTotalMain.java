@@ -19,7 +19,7 @@ public class SalaryTotalMain {
 		//指定job的mapper和输出的类型   k2  v2
 		job.setMapperClass(SalaryTotalMapper.class);
 		job.setMapOutputKeyClass(IntWritable.class);
-		job.setMapOutputValueClass(IntWritable.class);
+		job.setMapOutputValueClass(Employee.class);
 		
 		//指定job的reducer和输出的类型  k4   v4
 		job.setReducerClass(SalaryTotalReducer.class);
