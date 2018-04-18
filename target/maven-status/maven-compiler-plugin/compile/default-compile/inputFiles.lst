@@ -1,9 +1,15 @@
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\serializable\SalaryTotalReducer.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\totalsalary\SalaryTotalMapper.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\serializable\Employee.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\directory\MkDir.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\serializable\SalaryTotalMapper.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hbase\package-info.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\directory\TestDownload.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\serializable\SalaryTotalMain.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\wordcount\WordCountReducer.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\proxy\MyBusinessImpl.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\proxy\TestDataSourceMain.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\totalsalary\SalaryTotalMain.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\wordcount\WordCountMain.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\proxy\MyBusiness.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\directory\TestUpload.java
@@ -11,4 +17,6 @@ D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\package-info.jav
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\proxy\MyDataSourcePool.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\directory\TestMeta.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\wordcount\WordCountMapper.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\serializable\Student.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\proxy\ProxyTestMain.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\totalsalary\SalaryTotalReducer.java

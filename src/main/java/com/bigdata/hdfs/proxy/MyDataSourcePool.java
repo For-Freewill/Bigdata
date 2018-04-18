@@ -1,7 +1,5 @@
 package com.bigdata.hdfs.proxy;
 
-import static org.hamcrest.CoreMatchers.nullValue;
-
 import java.io.PrintWriter;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
