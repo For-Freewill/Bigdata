@@ -73,7 +73,7 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.bigdata.mapreduce.sort.EmployeeSortMain</mainClass>
+									<mainClass>com.bigdata.mapreduce.equaljoin.EqualJoinMain</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>

@@ -9,8 +9,7 @@ public class ProxyTestMain {
 		MyBusiness obj = new MyBusinessImpl();
 		
 		MyBusiness objProxy = (MyBusiness) Proxy.newProxyInstance(ProxyTestMain.class.getClassLoader(),
-													obj.getClass().getInterfaces(),
-													new InvocationHandler() {
+													obj.getClass().getInterfaces(),													new InvocationHandler() {
 														
 														@Override
 														public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
