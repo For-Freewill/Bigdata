@@ -10,6 +10,7 @@ D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\sort\Employ
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\directory\TestDownload.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hbase\mapreduce\WordCountReducer.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\wordcount\WordCountMain.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hive\JDBCUtils.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\selfjoin\SelfJoinReducer.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\wordcount\WordCountMapper.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\partition\SalaryReducer.java
@@ -32,6 +33,8 @@ D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\totalsalary
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\equaljoin\EquallJoinMapper.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mrunit\WordCountMapper.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\directory\MkDir.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hive\udf\MyConcatString2.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hive\udf\MyConcatString.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\serializable\SalaryTotalMain.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hbase\mapreduce\WordCountMapper.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hbase\mapreduce\WordCountMain.java
@@ -46,6 +49,7 @@ D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\sort\MySort
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\offset\MyMapper.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\serializable\Map.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\selfjoin\SelfJoinMapper.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hive\HiveDemo.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\revertedindex\RevertedIndexMapper.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\sort\MyComparator.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\revertedindex\RevertedIndexReducer.java
@@ -56,6 +60,7 @@ D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\selfjoin\Se
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\directory\TestUpload.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\combiner\AvgSalaryMapper.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\proxy\MyDataSourcePool.java
+D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hive\udf\CheckSalGrade.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\hdfs\directory\TestMeta.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\distinct\DistinctReducer.java
 D:\Developer\git_bigdata\Bigdata\src\main\java\com\bigdata\mapreduce\revertedindex\RevertedIndexCombiner.java
