@@ -10,35 +10,37 @@ import org.apache.storm.tuple.Fields;
 import org.apache.storm.tuple.Tuple;
 import org.apache.storm.tuple.Values;
 
-public class WordCountSplitBolt extends BaseRichBolt {
-	// collector：该bolt组件的收集器，用于把处理的数据发给下一个bolt组件
+//第一个bolt组件：单词拆分
+public class WordCountSplitBolt extends BaseRichBolt{
+
+	//collector：该bolt组件的收集器，用于把处理的数据发给下一个bolt组件
 	private OutputCollector collector;
-
+	
 	@Override
-	public void prepare(Map stormConf, TopologyContext context, OutputCollector collector) {
-		// 初始化
-		// collector：该bolt组件的收集器，用于把处理的数据发送下一个bolt组件
-		this.collector = collector;
-
+	public void execute(Tuple tuple) {
+		//如何处理上一级发来的数据: I love Beijing
+		String value = tuple.getStringByField("sentence");
+		
+		//分词
+		String[] words = value.split(" ");
+		
+		//输出
+		for(String w:words){
+			collector.emit(new Values(w,1));
+		}
 	}
 
 	@Override
-	public void execute(Tuple tuple) {
-		// 如何处理上一级发来的数据:I love beijing
-		String value = tuple.getStringByField("sentence");
-		//分词
-		String[] words = value.split(" ");
-		for (String w : words) {
-			collector.emit(new Values(w,1));
-		}
-
+	public void prepare(Map arg0, TopologyContext arg1, OutputCollector collector) {
+		// 初始化
+		//collector：该bolt组件的收集器，用于把处理的数据发给下一个bolt组件
+		this.collector = collector;
 	}
 
 	@Override
 	public void declareOutputFields(OutputFieldsDeclarer declare) {
-		// 声明发给下一个组件的tuple的schema（结构）。
+		// 申明发送给下一个组建的tuple的schema（结构）
 		declare.declare(new Fields("word","count"));
-
 	}
-
 }
+
