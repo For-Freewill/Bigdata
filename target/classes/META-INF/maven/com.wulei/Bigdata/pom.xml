@@ -75,6 +75,37 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- apache storm core -->
+		<dependency>
+			<groupId>org.apache.storm</groupId>
+			<artifactId>storm-core</artifactId>
+			<version>1.0.3</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.storm</groupId>
+			<artifactId>storm-rename-hack</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.storm/storm-hbase -->
+<dependency>
+    <groupId>org.apache.storm</groupId>
+    <artifactId>storm-hbase</artifactId>
+    <version>1.0.3</version>
+    <scope>test</scope>
+</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.storm/storm-redis -->
+<dependency>
+    <groupId>org.apache.storm</groupId>
+    <artifactId>storm-redis</artifactId>
+    <version>1.0.3</version>
+</dependency>
+		
+
+
 	</dependencies>
 	<build>
 		<plugins>
